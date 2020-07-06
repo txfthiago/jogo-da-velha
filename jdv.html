@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <style type="text/css">
+    body{
+        background: rgb(194, 141, 243);
+
+    }
+    #mostrador{
+        margin: auto;
+        margin-top: 40px;
+        width: 380px;
+        border-radius: 160px;
+        background: white;
+        padding-top: 5px;
+        font: italic 20pt Arial;
+       
+        
+        
+    }
+    .espaço{
+        width: 80px;
+        height: 80px;
+        border: 2px solid black;
+        float: left;
+        text-align: center;
+       
+        background: white;
+        border-radius: 10px;
+        
+    }
+    #tabuleiro{
+        margin: auto;
+        width: 252px;
+        margin-top: 40px;
+        height: 252px;
+        
+    }
+    footer{
+        margin: auto;
+        width: 252px;
+        text-align: center;
+        font: italic 20pt Arial;
+    }
+    </style>
+</head>
+<body>
+    <div id="mostrador">
+        <p style="float:left; margin-left:70px;">  Vez do jogador:</p>
+        <img src='' height="50" >
+    </div>
+
+    <div id="tabuleiro">
+        <div id="a1" class="espaço" jogada=''>a1</div>
+        <div id="a2" class="espaço" jogada=''>a2</div>
+        <div id="a3" class="espaço" jogada=''>a3</div>
+
+        <div id="b1" class="espaço" jogada=''>b1</div>
+        <div id="b2" class="espaço" jogada=''>b2</div>
+        <div id="b3" class="espaço" jogada=''>b3</div>
+
+        <div id="c1" class="espaço" jogada=''>c1</div>
+        <div id="c2" class="espaço" jogada=''>c2</div>
+        <div id="c3" class="espaço" jogada=''>c3</div>
+
+
+
+       
+    </div> 
+    <footer>
+        <p>&copy;JOGO DA VELHA</p>
+    </footer>
+    <script src="game.js"></script>
+</body>
+</html>
